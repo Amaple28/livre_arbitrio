@@ -1,0 +1,31 @@
+/* body com imagem de fundo parallax */
+body {
+    background: url(/assets/img/bg_capa.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgba(32, 30, 30, 0.9);
+    color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Lobster', cursive;
+    transform: translate(-50%, -50%);
+}
+
+.seta{
+    /* virar a seta */
+    transform: rotate(90deg);
+}
+
+/* deslocar a posicao da seta quando o mouse passa por cima */
+.seta:hover{
+    transform: rotate(90deg) translate(10px);
+}

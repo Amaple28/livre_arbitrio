@@ -1,0 +1,26 @@
+body{
+    background: url(/assets/img/santo_agostinho.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* placa decorativa bonita com o nome de santo agostinho */
+.nome_filosofo{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 50px;
+    border-radius: 20px;
+}

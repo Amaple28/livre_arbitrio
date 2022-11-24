@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(32, 30, 30, 0.9);
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Lobster', cursive;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

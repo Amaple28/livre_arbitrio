@@ -1,0 +1,59 @@
+.inicio {
+    background: url(/assets/img/deus_onisciente.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.body{
+    background-color:black !important;
+    overflow: hidden;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.col-6{
+    width: 40% !important;
+}
+
+.balao{
+    background-color: rgba(44, 39, 39, 0.9);
+    color: white;
+    font-size: large;
+    padding: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+    margin-top: 80px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}

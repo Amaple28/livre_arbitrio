@@ -1,0 +1,69 @@
+body{
+    background-color: rgba(32, 30, 30, 0.9);
+    color: white;
+    width: 30%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Lobster', cursive;
+    transform: translate(-50%, -50%);
+}
+
+.col-12{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caminho{
+    margin: 20px;
+    border-radius:50%;
+    background-color: rgba(36, 70, 180, 0.9);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.caminho2{
+    margin: 20px;
+    padding: 20px;
+    border-radius:50%;
+    background-color: rgba(122, 36, 180, 0.9);
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    text-align: center;
+}
+
+.caminho3{
+    margin: 20px;
+    padding: 20px;
+    border-radius:50%;
+    background-color: rgba(25, 105, 18, 0.9);
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(137, 214, 238);
+    text-decoration: none;
+}
